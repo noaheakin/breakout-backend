@@ -3,7 +3,8 @@ class CreateBalls < ActiveRecord::Migration[6.0]
     create_table :balls do |t|
       t.integer :x
       t.integer :y
-      t.integer :speed
+      t.integer :dx
+      t.integer :dy
       t.integer :direction
       t.integer :grid_id
       t.integer :width

@@ -15,7 +15,8 @@ ActiveRecord::Schema.define(version: 2020_10_19_221332) do
   create_table "balls", force: :cascade do |t|
     t.integer "x"
     t.integer "y"
-    t.integer "speed"
+    t.integer "dx"
+    t.integer "dy"
     t.integer "direction"
     t.integer "grid_id"
     t.integer "width"
