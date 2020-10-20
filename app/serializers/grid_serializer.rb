@@ -1,5 +1,4 @@
-class GridSerializer
-  include FastJsonapi::ObjectSerializer
+class GridSerializer < ActiveModel::Serializer
   attributes 
   has_many :blocks
   has_one :ball

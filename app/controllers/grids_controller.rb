@@ -4,5 +4,5 @@ class GridsController < ApplicationController
         grid = Grid.find(params[:id])
         render json: grid
     end
-    
+
 end
