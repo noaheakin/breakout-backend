@@ -15,7 +15,7 @@ grid1 = Grid.create(label: "Level 1")
 
 platform1 = Platform.create(x: 200, y: 400, width: 40, height: 10, speed: 2, grid_id: grid1.id)
 
-ball1 = Ball.create(x: 200, y:350, width: 5, height: 5, dx: 1, dy: 1, direction: 1, grid_id: grid1.id)
+ball1 = Ball.create(x: 200, y:350, width: 40, height: 40, dx: 1, dy: 1, direction: 1, grid_id: grid1.id)
 
 block1 = Block.create(x: 10, y: 10, width: 90, height: 50, grid_id: grid1.id)
 block2 = Block.create(x: 110, y: 10, width: 90, height: 50, grid_id: grid1.id)
