@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_10_19_221332) do
+ActiveRecord::Schema.define(version: 2020_10_22_014435) do
 
   create_table "balls", force: :cascade do |t|
     t.integer "x"
@@ -48,6 +48,20 @@ ActiveRecord::Schema.define(version: 2020_10_19_221332) do
     t.integer "height"
     t.integer "speed"
     t.integer "grid_id"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "scores", force: :cascade do |t|
+    t.integer "score"
+    t.integer "user_id"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "users", force: :cascade do |t|
+    t.string "username"
+    t.integer "score_id"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end

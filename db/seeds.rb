@@ -10,6 +10,7 @@ Grid.destroy_all
 Platform.destroy_all
 Ball.destroy_all
 Block.destroy_all
+User.destroy_all
 
 grid1 = Grid.create(label: "Level 1")
 
@@ -27,3 +28,6 @@ block7 = Block.create(x: 610, y: 10, width: 90, height: 50, grid_id: grid1.id)
 block8 = Block.create(x: 710, y: 10, width: 90, height: 50, grid_id: grid1.id)
 block9 = Block.create(x: 810, y: 10, width: 90, height: 50, grid_id: grid1.id)
 block10 = Block.create(x: 910, y: 10, width: 90, height: 50, grid_id: grid1.id)
+
+Cas = User.create(username: 'cats_are_fuzzy')
+Tyler = User.create(username: 'kavec')
