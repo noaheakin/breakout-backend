@@ -11,6 +11,7 @@ Platform.destroy_all
 Ball.destroy_all
 Block.destroy_all
 User.destroy_all
+Score.destroy_all
 
 grid1 = Grid.create(label: "Level 1")
 
