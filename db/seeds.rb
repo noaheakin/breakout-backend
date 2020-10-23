@@ -30,5 +30,10 @@ block8 = Block.create(x: 710, y: 10, width: 90, height: 50, grid_id: grid1.id)
 block9 = Block.create(x: 810, y: 10, width: 90, height: 50, grid_id: grid1.id)
 block10 = Block.create(x: 910, y: 10, width: 90, height: 50, grid_id: grid1.id)
 
-Cas = User.create(username: 'cats_are_fuzzy')
-Tyler = User.create(username: 'kavec')
+user1 = User.create(username: 'cats_are_fuzzy')
+user2 = User.create(username: 'kavec')
+
+score1 = Score.create(score: 30, user_id: user2.id)
+score2 = Score.create(score: 20, user_id: user2.id)
+score3 = Score.create(score: 10, user_id: user2.id)
+score4 = Score.create(score: 100, user_id: user2.id)
