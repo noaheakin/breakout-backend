@@ -28,7 +28,7 @@ open index.html
 ```
 ## Usage
 
-The user will create an username. This username will hold their scores. The user gets points to their score for each block destroyed. The user also loses points for each life lost. The user will be able to see their top three scores.
+The user will create an username. This username will hold their scores. The user gets points to their score for each block destroyed. The user also loses points for each life lost. The user will be able to see their top three scores. When a user is signed in, they can delete their username.
 
 ## Contributors
 Noah Eakin, Ashlee Barksdale and Chandler Hanson
